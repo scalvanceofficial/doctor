@@ -248,19 +248,6 @@
                     </div>
                   </div>
 
-                  <!-- Alternate Contact Number -->
-                  <div class="form-group col-md-6 mb-4">
-                    <input
-                      type="tel"
-                      name="alternate_phone"
-                      class="form-control"
-                      id="alternate_phone"
-                      placeholder="Alternate Contact Number (Optional)"
-                      pattern="[0-9]{10}"
-                    />
-                    <div class="help-block with-errors"></div>
-                  </div>
-
                   <!-- Gender -->
                   <div class="form-group col-md-6 mb-4">
                     <select
@@ -287,97 +274,6 @@
                       min="16"
                       max="100"
                     />
-                    <div class="help-block with-errors"></div>
-                  </div>
-
-                  <!-- Service -->
-                  <div class="form-group col-md-6 mb-4">
-                    <select
-                      name="service"
-                      class="form-control form-select"
-                      id="service"
-                      required
-                    >
-                      <option value="" disabled selected>Select Service</option>
-                      <option value="beginner_driving_course">
-                        Beginner Driving Course
-                      </option>
-                      <option value="license_test_preparation">
-                        License Test Preparation
-                      </option>
-                      <option value="automatic_car_driving">
-                        Automatic Car Driving
-                      </option>
-                      <option value="defensive_training">
-                        Defensive Training
-                      </option>
-                      <option value="refresher_driving_courses">
-                        Refresher Driving Courses
-                      </option>
-                      <option value="night_driving_lessons">
-                        Night Driving Lessons
-                      </option>
-                      <option value="highway_driving_sessions">
-                        Highway Driving Sessions
-                      </option>
-                      <option value="road_safety_workshops">
-                        Road Safety Workshops
-                      </option>
-                    </select>
-                    <div class="help-block with-errors"></div>
-                  </div>
-
-                  <!-- Vehicle Transmission Type -->
-                  <div class="form-group col-md-6 mb-4">
-                    <select
-                      name="transmission_type"
-                      class="form-control form-select"
-                      id="transmission_type"
-                    >
-                      <option value="" disabled selected>
-                        Preferred Transmission
-                      </option>
-                      <option value="manual">Manual</option>
-                      <option value="automatic">Automatic</option>
-                      <option value="either">Either</option>
-                    </select>
-                    <div class="help-block with-errors"></div>
-                  </div>
-
-                  <!-- Driving Experience Level -->
-                  <div class="form-group col-md-6 mb-4">
-                    <select
-                      name="experience_level"
-                      class="form-control form-select"
-                      id="experience_level"
-                    >
-                      <option value="" disabled selected>
-                        Driving Experience
-                      </option>
-                      <option value="none">No Experience</option>
-                      <option value="beginner">Beginner</option>
-                      <option value="intermediate">Intermediate</option>
-                      <option value="needs_refresher">
-                        Licensed, Need Refresher
-                      </option>
-                    </select>
-                    <div class="help-block with-errors"></div>
-                  </div>
-
-                  <!-- Currently Hold a License? -->
-                  <div class="form-group col-md-6 mb-4">
-                    <select
-                      name="has_license"
-                      class="form-control form-select"
-                      id="has_license"
-                    >
-                      <option value="" disabled selected>
-                        Do You Hold a License?
-                      </option>
-                      <option value="yes_full">Yes, Full License</option>
-                      <option value="yes_learner">Yes, Learner's Permit</option>
-                      <option value="no">No</option>
-                    </select>
                     <div class="help-block with-errors"></div>
                   </div>
 
@@ -416,65 +312,6 @@
                     <div class="help-block with-errors"></div>
                   </div>
 
-                  <!-- Alternate Date (optional, in case first is unavailable) -->
-                  <div class="form-group col-md-6 mb-4">
-                    <input
-                      type="date"
-                      name="alternate_date"
-                      class="form-control"
-                      id="alternate_date"
-                      placeholder="Alternate Date (Optional)"
-                    />
-                    <div class="help-block with-errors"></div>
-                  </div>
-
-                  <!-- Number of Sessions -->
-                  <div class="form-group col-md-6 mb-4">
-                    <select
-                      name="sessions_required"
-                      class="form-control form-select"
-                      id="sessions_required"
-                    >
-                      <option value="" disabled selected>
-                        No. of Sessions Required
-                      </option>
-                      <option value="trial">Single Trial Class</option>
-                      <option value="5">5 Sessions</option>
-                      <option value="10">10 Sessions</option>
-                      <option value="15">15 Sessions</option>
-                      <option value="20+">20+ Sessions</option>
-                    </select>
-                    <div class="help-block with-errors"></div>
-                  </div>
-
-                  <!-- Pickup Required -->
-                  <div class="form-group col-md-6 mb-4">
-                    <select
-                      name="pickup_required"
-                      class="form-control form-select"
-                      id="pickup_required"
-                    >
-                      <option value="" disabled selected>
-                        Pickup & Drop Required?
-                      </option>
-                      <option value="yes">Yes</option>
-                      <option value="no">No, I'll Reach the Center</option>
-                    </select>
-                    <div class="help-block with-errors"></div>
-                  </div>
-
-                  <!-- Pickup Address -->
-                  <div class="form-group col-md-12 mb-4">
-                    <input
-                      type="text"
-                      name="pickup_address"
-                      class="form-control"
-                      id="pickup_address"
-                      placeholder="Pickup Address (If Pickup Required)"
-                    />
-                    <div class="help-block with-errors"></div>
-                  </div>
-
                   <!-- City -->
                   <div class="form-group col-md-6 mb-4">
                     <input
@@ -499,25 +336,8 @@
                     <div class="help-block with-errors"></div>
                   </div>
 
-                  <!-- Preferred Instructor Gender -->
-                  <div class="form-group col-md-6 mb-4">
-                    <select
-                      name="instructor_preference"
-                      class="form-control form-select"
-                      id="instructor_preference"
-                    >
-                      <option value="" disabled selected>
-                        Preferred Instructor
-                      </option>
-                      <option value="no_preference">No Preference</option>
-                      <option value="male">Male Instructor</option>
-                      <option value="female">Female Instructor</option>
-                    </select>
-                    <div class="help-block with-errors"></div>
-                  </div>
-
                   <!-- How Did You Hear About Us -->
-                  <div class="form-group col-md-6 mb-4">
+                  <div class="form-group col-md-12 mb-4">
                     <select
                       name="referral_source"
                       class="form-control form-select"
@@ -630,7 +450,7 @@
 
                   <div class="col-md-12">
                     <button type="submit" class="btn-default">
-                      Submit Message
+                      Book Appointment
                     </button>
                     <div id="msgSubmit" class="h3 hidden"></div>
                   </div>
@@ -644,6 +464,110 @@
       </div>
     </div>
     <!-- Page Appointment End -->
+
+    <!-- Payment Popup Modal -->
+    <div id="paymentModalOverlay" class="payment-modal-overlay">
+      <div class="payment-modal-box">
+        <button
+          type="button"
+          class="payment-modal-close"
+          id="paymentModalClose"
+        >
+          &times;
+        </button>
+        <img
+          src="images/my-img/payment.png"
+          alt="Payment Confirmation"
+          class="payment-modal-img"
+        />
+      </div>
+    </div>
+
+    <style>
+      .payment-modal-overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7);
+        z-index: 9999;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .payment-modal-overlay.active {
+        display: flex;
+      }
+
+      .payment-modal-box {
+        position: relative;
+        background: #fff;
+        padding: 15px;
+        border-radius: 8px;
+        max-width: 90%;
+        max-height: 90vh;
+        overflow: auto;
+      }
+
+      .payment-modal-img {
+        max-width: 100%;
+        max-height: 80vh;
+        display: block;
+        border-radius: 6px;
+      }
+
+      .payment-modal-close {
+        position: absolute;
+        top: -10px;
+        right: -10px;
+        background: #fff;
+        border: none;
+        border-radius: 50%;
+        width: 32px;
+        height: 32px;
+        font-size: 20px;
+        line-height: 1;
+        cursor: pointer;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+      }
+    </style>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const form = document.getElementById("appointmentForm");
+        const modalOverlay = document.getElementById("paymentModalOverlay");
+        const modalClose = document.getElementById("paymentModalClose");
+
+        form.addEventListener("submit", function (e) {
+          e.preventDefault(); // stop normal form submission
+
+          // Only show popup if the form passes native HTML validation
+          if (form.checkValidity()) {
+            modalOverlay.classList.add("active");
+
+            // OPTIONAL: send the form data via AJAX/fetch here instead of normal submit
+            // const formData = new FormData(form);
+            // fetch("your-backend-url.php", { method: "POST", body: formData });
+          } else {
+            form.reportValidity(); // shows native browser validation messages
+          }
+        });
+
+        // Close modal on button click
+        modalClose.addEventListener("click", function () {
+          modalOverlay.classList.remove("active");
+        });
+
+        // Close modal when clicking outside the image box
+        modalOverlay.addEventListener("click", function (e) {
+          if (e.target === modalOverlay) {
+            modalOverlay.classList.remove("active");
+          }
+        });
+      });
+    </script>
 
     <!-- Our Fact Section Start -->
     <div class="our-facts bg-section dark-section">
